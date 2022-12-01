@@ -1,0 +1,1 @@
+This project is to demonstrate my current knowledge on CSS and HTML using TheOdinProject.com to teach myself.
