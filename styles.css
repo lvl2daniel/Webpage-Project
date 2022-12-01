@@ -42,14 +42,14 @@ a {
     font-size: 18px;
     color: #E5E7EB;
     display: flex;
-    gap: 1rem;
+    gap: 4rem;
     margin-right: 15rem;
 }
 .header-subtext {
     display: flex;
     background-color: #1F2937;
     align-items: center;
-    gap: 2rem;
+    gap: 3rem;
     padding-top: 5rem;
     padding-bottom: 5rem;
 }
@@ -76,9 +76,6 @@ a {
     margin-right: 15rem;
 }
 
-.button1{
-
-}
 
 button {
     background-color: #3882F6;
@@ -95,6 +92,7 @@ button {
     display: flex;
     flex-direction: column;
     align-items: center;
+    justify-content: center;
     gap: 4rem;
     margin-top: 5rem;
     margin-bottom: 5rem;
@@ -111,6 +109,9 @@ button {
 ul{
     display: flex;
     gap: 8rem;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
 }
 
 li {
@@ -131,6 +132,7 @@ li {
     align-items: center;
     justify-content: center;
     font-size: 36px;
+    padding-bottom: 24px;
 }
 
 
@@ -142,6 +144,7 @@ li {
 }
 
 .author {
+    align-self: flex-end;
     margin-left: 30rem;
     margin-bottom: 4rem;
     font-weight: 500;
